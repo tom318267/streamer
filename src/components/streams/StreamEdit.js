@@ -19,7 +19,7 @@ class StreamEdit extends React.Component {
     }
 
     return (
-      <div>
+      <div style={{ padding: "0 20px" }}>
         <h3>Edit a Stream</h3>
         <StreamForm
           initialValues={_.pick(this.props.stream, "title", "description")}
